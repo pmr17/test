@@ -32,12 +32,7 @@ public class HelloTest {
     	
 		System.out.println("Jenkins Demo");
 		Assert.assertEquals(0, 0);				
-	}
-    	@Test
-	public void Testjenkins1(){
-    		System.out.println("Second Testcase");
-		Assert.assertEquals(1, 0);
-    	}
+	}    	
 
 	@AfterTest
 	public void afterTest() {
