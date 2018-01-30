@@ -28,13 +28,16 @@ public class HelloTest {
 	}
 
 	@Test
-	public void f() {
-
-		text = driver.findElement(By.xpath("html/body/h2"));
-		Assert.assertEquals(driver.getTitle(), text);
-		System.out.println("Test Passed");
-
+	public void Testjenkins(){
+    	
+		System.out.println("Jenkins Demo");
+		Assert.assertEquals(0, 0);				
 	}
+    	@Test
+	public void Testjenkins1(){
+    		System.out.println("Second Testcase");
+		Assert.assertEquals(1, 0);
+    	}
 
 	@AfterTest
 	public void afterTest() {
